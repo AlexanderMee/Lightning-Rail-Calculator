@@ -58,7 +58,17 @@ while True:
     
     print("\n")
 
-    
+startList = []
+endList = []
+
+y = 0
+x = 0
+for a in bigList:
+    y = 0
+    for b in bigList[x]:
+        print(bigList[x][y])
+        y += 1
+    x += 1
 
     i = -1
 
